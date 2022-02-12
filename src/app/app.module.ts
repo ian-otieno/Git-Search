@@ -9,13 +9,14 @@ import { MyRepositoriesComponent } from './my-repositories/my-repositories.compo
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    MyProfileComponent,
     MyRepositoriesComponent,
     NavbarComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GitHubService } from '../git-hub.service'
 
 @Component({
   selector: 'app-my-profile',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyProfileComponent implements OnInit {
 
-  constructor() { }
+  profile:any
+  repos:any
 
-  ngOnInit(): void {
+  constructor(private githubService:GitHubService) { 
+    this.githubService.getProfileData().subscribe(profile =>{
+      console.log(profile)
+      this.profile=profile
+    })
+    this.githubService.getMyRepos().subscribe(repos =>{
+      console.log(repos)
+      this.repos=repos
+    })
+    
+  }
+
+  ngOnInit() {
   }
 
 }

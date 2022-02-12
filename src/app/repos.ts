@@ -1,4 +1,4 @@
-export class Repository {
+export class Repos {
     constructor(
         public html_url:string,
         public name:string,
@@ -6,5 +6,6 @@ export class Repository {
         public updated_at: Date,
         public clone_url:string,
         public language:string,
-    ){}  
+    ){}
+ 
 }
