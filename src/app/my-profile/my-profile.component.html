@@ -1,6 +1,32 @@
 <div class="container">
     <h1 class="text-center">WELCOME TO MY GITHUB PORTFOLIO</h1>
     <hr>
-   
+    <div class="row">
+        <div class="col-md-6">
+          <div *ngIf='profile'>
+            <div class="panel panel-default">
+              <div class="panel-heading">{{profile.name}}</div>
+            </div>
+    
+            <div><img src="{{profile.avatar_url}}" alt="profile photo" class="img-circle"></div>
+    
+            <div class="card">
+              <p><span class="info">GitHub Username:</span><span class="details">{{profile.login}}</span> </p>
+            </div>
+            <div class="card">
+              <p><span class="info">Twitter Username: </span><span class="details">{{profile.twitter_username}}</span></p>
+            </div>
+            <div class="card">
+              <p><span class="info">Bio:</span> <span class="details">{{profile.bio}}</span></p>
+            </div>
+            <div class="card">
+             <p> <span class="info">Bootcamp: </span><span class="details">{{profile.company}}</span></p>
+            </div>
+            <div class="card">
+              <p><span class="info">Total number of public repositories:</span><span class="details"> {{profile.public_repos}}</span></p>
+            </div>
+          </div>
+        </div>
+       
   </div>
   
