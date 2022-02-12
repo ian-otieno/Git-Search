@@ -27,6 +27,23 @@
             </div>
           </div>
         </div>
-       
+        <div class="col-md-6">
+            <h1 class="text-center">PUBLIC REPOSITORIES</h1>
+            <hr>
+            <div *ngFor='let repo of repos'>
+              <div class="card">
+                <div class="card-header">
+                  <a href="{{repo.html_url}}" class="repoName">{{repo.name}} </a>
+                </div>
+                <div class="card-body text-lead">
+                  <p>{{repo.description}}</p>
+                </div>
+                <div class="card-footer">
+                  <p>Clone link:"{{repo.clone_url}}"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
   </div>
   
