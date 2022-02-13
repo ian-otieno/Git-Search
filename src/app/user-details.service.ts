@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http"
-import { User } from "./user";
-import { Repos } from './repos';
+import { User } from  './user'
+import { Repos } from './repos'
+import { environment } from 'src/environments/environment.prod';
+
 
 @Injectable({
   providedIn: 'root'
 })
-export class UserDetailsService {
+export class UserDetailsService{
   user!:User
   repository!:Repos
   repoData: any=[]
@@ -27,8 +29,10 @@ export class UserDetailsService {
        created_at:Date
      }
      let promise =new Promise<void>((resolve,reject)=>{
-       this.http.get<ApiResponse>("https://api.github.com/users/" +username).toPromise().then(response=>{
-         this.user.name=Response.name
+       this.http.get<ApiResponse>("https://api.github.com/users/" +username+'?access_token='+environment.apiKey ).toPromise().then(response=>{
+         this.user.name = Response.name
+        
+         
 
          resolve()
        },error=>{
@@ -45,7 +49,5 @@ export class UserDetailsService {
        })
      })
      return promise
-   }
-
-
+   } 
 }

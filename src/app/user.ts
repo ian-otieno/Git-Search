@@ -1,4 +1,5 @@
 export class User {
+    static result:any;
     constructor(
         public name:string,
         public avatar_url:string,
@@ -7,5 +8,6 @@ export class User {
         public company:string,
         public public_repos:number,
         public created_at:Date
-    ){ }   
+    ){ }  
+    
 }

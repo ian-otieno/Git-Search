@@ -10,6 +10,7 @@ import { MyProfileComponent } from './my-profile/my-profile.component';
 import { MyRepositoriesComponent } from './my-repositories/my-repositories.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { GitHubService } from './git-hub.service';
 
 
 @NgModule({
@@ -27,7 +28,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [GitHubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

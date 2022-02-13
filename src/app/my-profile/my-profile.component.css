@@ -1,0 +1,54 @@
+.container-fluid {
+  margin-top: 60px;
+  background-color: rgb(27, 58, 58);
+  background-attachment: fixed;
+  color: white;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: rgb(39, 35, 35);
+
+}
+
+.img-circle {
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 25%;
+  height: 300px;
+  width: 300px;
+}
+
+
+.info {
+  font-style: italic;
+  font-family: Georgia;
+}
+
+.h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.btn {
+  margin-right: 200px;
+}
+
+.repoDetail {
+  margin: auto;
+  font-size: 25px;
+
+}
+
+
+.url {
+  font-style: italic;
+  font-weight: bolder;
+}
