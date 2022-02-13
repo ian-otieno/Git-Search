@@ -11,6 +11,7 @@ import { MyRepositoriesComponent } from './my-repositories/my-repositories.compo
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { GitHubService } from './git-hub.service';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { GitHubService } from './git-hub.service';
     MyRepositoriesComponent,
     NavbarComponent,
     SearchFormComponent,
+    NotFoundComponent,
     
   ],
   imports: [
