@@ -1,1 +1,12 @@
-<p>search-form works!</p>
+
+<div class="container">
+    <form (ngSubmit)='submitUsername()'>
+      
+       <div class="form-group">
+          <input type="text" name="username" id="" [(ngModel)]="username" class="form-control">
+          <button type="submit" class="btn btn-primary">Search GitHub</button>
+       </div>
+    </form>
+    
+  </div>
+  
