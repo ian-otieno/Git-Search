@@ -1,0 +1,50 @@
+.container-fluid{
+    margin-top: 60px;
+    background-color:rgb(26, 243, 243);
+    background-attachment: fixed;
+}
+.card{
+    margin-top: 10px;
+    background-color: rgb(57, 197, 151);
+}
+.img-circle{
+    border-radius: 4cm;
+    align-self: center;
+    margin-left: 25%;
+    height: 3000px;
+    width: 300px;
+}
+.par{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.info{
+    font-style: italic;
+    font-family: Georgia;
+}
+.h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Georgia;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.form-control{
+    width: 700px;
+}
+.btn{
+    margin-right: 380px;
+}
+.repoDetail{
+   margin: auto;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+.url{
+    font-style: italic;
+    font-weight: bolder;
+}
