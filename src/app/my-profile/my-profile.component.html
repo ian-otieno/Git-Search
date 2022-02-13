@@ -1,4 +1,5 @@
 <div class="container">
+  <app-search-form></app-search-form> 
     <h1 class="text-center">WELCOME TO MY GITHUB PORTFOLIO</h1>
     <hr>
     <div class="row">
@@ -39,6 +40,7 @@
                   <p>{{repo.description}}</p>
                 </div>
                 <div class="card-footer">
+                  <p>{{repo.created_at | date}}</p>
                   <p>Clone link:"{{repo.clone_url}}"</p>
                 </div>
               </div>
