@@ -4,7 +4,7 @@ By [Ian-Otieno](https://github.com/ian-otieno)
 
 ## Description
 
-This is Agular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories based on github user name.
+This is  an Angular CLI application that enables a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also search for repositories based on github user name.
 
 ## Demo Website
 To test this website here is a live demo of the site ;
@@ -36,6 +36,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Installation / Setup instruction
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone ```https://github.com/ian-otieno/Git-Search.git```
+
+* cd Git-Search
+
+* code . or atom . based on the text editor you have.
+
 
 ## Behaviour Driven Development (BDD)
 | Input                    	| Ouput                                                                                        	|
