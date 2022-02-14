@@ -1,5 +1,4 @@
 .container-fluid {
-  margin-top: 60px;
   background-color: rgb(27, 58, 58);
   background-attachment: fixed;
   color: white;
@@ -55,7 +54,7 @@
 
 #footer {
 padding: 10px;
-background-color: black;
+background-color:rgb(39, 35, 35); ;
 text-align: center;
 margin-top: 2px;
 }
