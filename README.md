@@ -1,4 +1,15 @@
 # GitSearch
+This Git-Search project was created on 13/2/2022 <br>
+By [Ian-Otieno](https://github.com/ian-otieno)
+
+## Description
+
+This is Agular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories based on github user name.
+
+## Demo Website
+To test this website here is a live demo of the site ;
+
+## Project Generation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
@@ -25,4 +36,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Git-Search
+
+## Behaviour Driven Development (BDD)
+| Input                    	| Ouput                                                                                        	|
+|--------------------------	|----------------------------------------------------------------------------------------------	|
+|Users enters their github user name and clicks "search Github Details  | the user  public repositories details is displayed  |
+
+
+## Technologies Used
+1. Angualar CLI
+2. Typescript
+3. JavaScript
+4. HTML 
+5. CSS
+6. Bootstrap
+
+
+## Known Bugs
+Passing parameters to generate user profile details
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [ian.otieno@student.moringaschool.com]
+
+## License
+* *MIT License:*
+* Copyright (c) 2022 **Ian Otieno**
+
+
